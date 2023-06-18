@@ -1,0 +1,8 @@
+secrets:
+  googleOAuth:
+    clientId: LeBDXXxn9GRIOeNTkwh5aFstHLEFSAPZO+dhlMVV/0x/KaqoFS0YberBXaba/vQYNU7B4hQwPe1mA8i/BulEaqFHlsuw1FYJ/OftUJpwWfbvZCo0BO1bZQ==
+    clientSecret: 2WZ3Qi6ntpbRhEsJn2nmDSg37ejmbvcxbTFXPjduirUQP9I/jQrq4cCRVsv5+fhV
+
+spring:
+  profiles:
+    include: secret

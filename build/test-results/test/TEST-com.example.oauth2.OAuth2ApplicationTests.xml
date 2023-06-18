@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.oauth2.OAuth2ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-18T13:36:08" hostname="noOne-MacBookAir.local" time="0.385">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.oauth2.OAuth2ApplicationTests" time="0.385"/>
+  <system-out><![CDATA[22:36:07.385 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.oauth2.OAuth2ApplicationTests]: OAuth2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:36:07.428 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.oauth2.OAuth2Application for test class com.example.oauth2.OAuth2ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-06-18T22:36:07.599+09:00  WARN 81286 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/anyone/.gradle/caches/modules-2/files-2.1/org.json/json/20230227/7a0d4aca76513d8ce81f9b044ce8126b84809ad8/json-20230227.jar!/org/json/JSONObject.class
+	jar:file:/Users/anyone/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-06-18T22:36:07.606+09:00  INFO 81286 --- [    Test worker] c.example.oauth2.OAuth2ApplicationTests  : Starting OAuth2ApplicationTests using Java 17.0.1 with PID 81286 (started by anyone in /Users/anyone/Desktop/git/OAuth2)
+2023-06-18T22:36:07.606+09:00  INFO 81286 --- [    Test worker] c.example.oauth2.OAuth2ApplicationTests  : The following 1 profile is active: "secret"
+2023-06-18T22:36:07.985+09:00  INFO 81286 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-06-18T22:36:08.051+09:00  INFO 81286 --- [    Test worker] c.example.oauth2.OAuth2ApplicationTests  : Started OAuth2ApplicationTests in 0.569 seconds (process running for 0.998)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
