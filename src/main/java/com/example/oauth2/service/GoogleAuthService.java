@@ -1,6 +1,6 @@
 package com.example.oauth2.service;
 
-import com.example.oauth2.dto.GoogleOauthInfo;
+import com.example.oauth2.model.dto.GoogleOauthInfo;
 import lombok.RequiredArgsConstructor;
 import org.jasypt.encryption.StringEncryptor;
 import org.springframework.http.*;

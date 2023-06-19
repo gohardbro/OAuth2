@@ -1,4 +1,4 @@
-package com.example.oauth2.dto;
+package com.example.oauth2.model.dto;
 
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;
