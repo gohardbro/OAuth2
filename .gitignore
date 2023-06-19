@@ -206,3 +206,7 @@ gradle-app.setting
 JasyptEncryptor.java
 JasyptTest.java
 application-secret.properties
+
+#etc
+*.idea
+*.iml
